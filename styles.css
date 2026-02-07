@@ -1076,20 +1076,19 @@ header.scrolled {
 
 
 .contact-link {
-    color: #ffffff;          /* belo */
+    color: var(--text-white); /* belo */
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
     display: block;
     margin: 0.5rem 0;
     transition: color 0.3s ease;
-    word-break: break-word;
-    overflow-wrap: break-word;
 }
 
 .contact-link:hover {
-    color: #000000;          /* crno */
+    color: var(--text-black); /* crno */
 }
+
 
 .contact-card p {
     font-size: 0.9rem;
