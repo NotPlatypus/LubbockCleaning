@@ -1074,20 +1074,21 @@ header.scrolled {
     font-weight: 700;
 }
 
+
 .contact-link {
-    color: var(--text-white);
+    color: #ffffff;          /* belo */
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
     display: block;
     margin: 0.5rem 0;
-    transition: var(--transition);
+    transition: color 0.3s ease;
     word-break: break-word;
     overflow-wrap: break-word;
 }
 
 .contact-link:hover {
-    color: var(--secondary-color);
+    color: #000000;          /* crno */
 }
 
 .contact-card p {
